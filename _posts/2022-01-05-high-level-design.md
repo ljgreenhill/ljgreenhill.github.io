@@ -1,5 +1,5 @@
 ---
-title: "High level design"
+title: "High Level Design"
 layout: post
 ---
 
