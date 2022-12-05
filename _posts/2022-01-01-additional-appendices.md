@@ -1,6 +1,7 @@
 ---
 title: "Additional Appendices"
 layout: post
+read-more: true
 ---
 
 Appendix with commented Verilog and/or program listings.

@@ -1,6 +1,7 @@
 ---
 title: "High Level Design"
 layout: post
+read-more: true
 ---
 
 Rationale and sources of your project idea

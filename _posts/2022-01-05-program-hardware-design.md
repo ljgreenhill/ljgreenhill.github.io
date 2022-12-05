@@ -1,6 +1,7 @@
 ---
 title: "Program and Hardware Design"
 layout: post
+read-more: true
 ---
 
 program details. What parts were tricky to write?

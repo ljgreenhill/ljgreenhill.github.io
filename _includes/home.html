@@ -3,8 +3,8 @@
 <article>
   {% include meta.html post=post preview=true %}
   {{ post.excerpt }}
-  {% if 0 < 1 %} <div class="more"><a href="{{ post.url | relative_url }}">read more</a></div>
-    {% endif %}
+  {% if post.read-more %} <div class="more"><a href="{{ post.url | relative_url }}">read more</a></div>
+  {% endif %}
 </article>
 {% endfor %}
 

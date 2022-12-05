@@ -1,6 +1,7 @@
 ---
 title: "Conclusions"
 layout: post
+read-more: true
 ---
 
 Analyse your design in terms of how the results met your expectations. What might you do differently next time?
