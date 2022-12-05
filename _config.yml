@@ -21,7 +21,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:ljg227@cornell.edu"}
-  - {title: Github, icon: github, url: "https://github.com/ljgreenhill/whale.github.io"}
+  - {title: Github, icon: github, url: "https://github.com/ljgreenhill/"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
