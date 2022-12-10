@@ -7,6 +7,7 @@ read-more: true
 ## Rational and Sources
 The goal of our project is to mimic whale echolocation.
 
+
 ## Hardware/Software Tradeoffs
 
 ### Detecting Distance
