@@ -4,10 +4,20 @@ layout: post
 read-more: true
 ---
 
-![Moving State Machine](https://i.ibb.co/CtjBDr1/moving-state-machine.png)
+# Rational and Sources
+The goal of our project is to mimic whale echolocation.
 
-Rationale and sources of your project idea
-background math
-logical structure
-hardware/software tradeoffs
-Discuss existing patents, copyrights, and trademarks which are relevant to your project.
+# Hardware/Software Tradeoffs
+
+## Detecting Distance
+
+One of the major decisions we made in our design was how to simulate
+
+# Logical Structure
+
+
+
+
+
+
+
