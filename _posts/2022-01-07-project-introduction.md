@@ -1,15 +1,25 @@
 ---
-title: "Project Introduction"
+title: "Welcome to Jekyll"
 layout: post
-read-more: false
 ---
 
-Our goal was to simulate whale echolocation, where species send out a series of clicks and intepret the echoes these make when they bounce back from objects. Our project does just that!
-
-In our setup, there are two whales, one represented by a stationary Raspberry Pi Pico microcontroller and one mobile robot also programmed with a Raspberry Pi Pico. Both whales are equipped with a microphone and a speaker. When the moving whale emits clicks, the stationary whale detects the sounds and reponds with its own clicks of another frequency. The mobile whale can use the calculated time from when a click is sent to when a response  is received to determine the distance to the stationary whale and decides which direction to move in, based on our implementation of a state machine to navigate in a grid-like manner towards the stationary whale.
-
-## Demo Video
-
-[![Demo Video](https://i.ibb.co/8DC7rRC/demo-vid.png)](https://www.youtube.com/watch?v=SYovWosy5Rc&list=PLDqMkB5cbBA6AwYC_DElkDStUdOsTuIL7&index=9)
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
