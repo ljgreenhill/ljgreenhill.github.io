@@ -4,16 +4,16 @@ layout: post
 read-more: true
 ---
 
-# Rational and Sources
+## Rational and Sources
 The goal of our project is to mimic whale echolocation.
 
-# Hardware/Software Tradeoffs
+## Hardware/Software Tradeoffs
 
-## Detecting Distance
+### Detecting Distance
 
 One of the major decisions we made in our design was how to simulate
 
-# Logical Structure
+## Logical Structure
 
 
 

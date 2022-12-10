@@ -4,22 +4,22 @@ layout: post
 read-more: true
 ---
 
-# Tasking
+## Tasking
 
-## Rochelle
+### Rochelle
 
-## Lauren
+### Lauren
 * Worked on initial state machine design
 * Implement skeleton code with 
 
-## Sarika
+### Sarika
 
-# Data Sheets
+## Data Sheets
 
 h-bridge
 speaker
 
-# References
+## References
 
 [RP2040 Sample Code](https://github.com/vha3/Hunter-Adams-RP2040-Demos)
 
