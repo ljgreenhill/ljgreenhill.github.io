@@ -1,13 +1,14 @@
 <link rel="stylesheet" href="{{ "/assets/css/sidebar.css" | relative_url }}" media="screen and (min-width: 70em)">
 <aside style="display: none">
   <nav>
-
     
+  <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
+
   {% for post in site.posts %}
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
   {% endfor %}
   
   </nav>
-  <img src="https://thumbs.gfycat.com/ElderlyCoordinatedBarasingha-max-1mb.gif" alt="whale" width="93" height="283"/>
+  <img src="https://thumbs.gfycat.com/ElderlyCoordinatedBarasingha-max-1mb.gif" alt="whale" width="186" height="566"/>
   <div class="description">{{ site.description }}</div>
 </aside>
