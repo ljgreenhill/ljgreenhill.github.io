@@ -10,6 +10,6 @@ In our setup, there are two whales, one represented by a stationary Raspberry Pi
 
 ## Demo Video
 
-[![Demo Video](https://i.ibb.co/ZTp4pHb/demo.png)](https://www.youtube.com/watch?v=SYovWosy5Rc&list=PLDqMkB5cbBA6AwYC_DElkDStUdOsTuIL7&index=9)
+[![Demo Video](https://i.ibb.co/8DC7rRC/demo-vid.png)](https://www.youtube.com/watch?v=SYovWosy5Rc&list=PLDqMkB5cbBA6AwYC_DElkDStUdOsTuIL7&index=9)
 
 
