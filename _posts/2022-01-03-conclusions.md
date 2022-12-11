@@ -17,4 +17,4 @@ Another issue was variance in the robot movements. We relied on turning each mot
 
 ## Intellectual Property Considerations
 
-We reused code from previous ECE 4760 labs.
+We reused code from previous ECE 4760 labs as mentioned in the Program and Hardware Design section.
