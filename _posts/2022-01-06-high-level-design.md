@@ -27,6 +27,8 @@ TODO
 
 The code for both the stationary and mobile circuit feature a interrupt service routine for creating beeps that is called at a rate of 100μs, and one main thread which samples audio using a DMA channel and computes the maximum frequency using a FFT algorithm.
 
+TODO: Lauren
+
 ## Hardware/Software Tradeoffs
 
 ### Detecting Distance
