@@ -7,8 +7,8 @@ read-more: true
 ## Tasking
 
 
-
 ### Rochelle
+TODO
 
 ### Lauren
 * Worked on initial state machine design and created diagram
@@ -17,6 +17,7 @@ read-more: true
 * Forked website template and structured pages
 
 ### Sarika
+TODO
 
 ## Data Sheets
 
@@ -30,7 +31,7 @@ read-more: true
 
 [RP2040](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
 
-Speaker- could not find (@Sarika maybe you will have more luck?)
+TODO Speaker- could not find (@Sarika maybe you will have more luck?)
 
 ## References
 
