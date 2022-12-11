@@ -15,6 +15,8 @@ In the following diagram, the blue dot is the starting location of the mobile ro
 @Sarika
 
 # Code Sources
-Some sections of our code were take directly from provided sample code.
+We used the FFT and DMA channel code from this [audio FFT example](https://github.com/vha3/Hunter-Adams-RP2040-Demos/blob/master/Lab_1/Audio_FFT/fft.c).
+
+The motor PWM channel code was inspired by this [PWM demo](https://github.com/vha3/Hunter-Adams-RP2040-Demos/blob/master/Lab_3/PWM_Demo/pwm-demo.c).
 
 
