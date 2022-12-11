@@ -23,8 +23,7 @@ The goal of our project is to mimic whale echolocation.
 
 ## Logical Structure
 
-The code for both the stationary and mobile circuit
-
+The code for both the stationary and mobile circuit feature a interrupt service routine for creating beeps that is called at a rate of 100μs, and one main thread which samples audio using a DMA channel and computes the maximum frequency using a FFT algorithm.
 
 ## Hardware/Software Tradeoffs
 
