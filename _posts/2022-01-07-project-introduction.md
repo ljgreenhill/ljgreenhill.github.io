@@ -1,11 +1,10 @@
 ---
 title: "Project Introduction"
 layout: post
-read-more: true
+read-more: false
 ---
 
 [![Demo Video](https://i.ibb.co/8DC7rRC/demo-vid.png)](https://www.youtube.com/watch?v=SYovWosy5Rc&list=PLDqMkB5cbBA6AwYC_DElkDStUdOsTuIL7&index=9)
-
 
 Our goal was to simulate whale echolocation, where species send out a series of clicks and intepret the echoes these make when they bounce back from objects. Our project does just that!
 

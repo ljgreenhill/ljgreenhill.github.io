@@ -1,7 +1,7 @@
 ---
 title: "High Level Design"
 layout: post
-read-more: true
+read-more: false
 ---
 
 ## Background Math
@@ -16,7 +16,6 @@ These formulas and the full explanation can be found [here](https://vanhunterada
 Based on these equations, the fastest frequency that can be detected is half the sample rate.
 
 In our case, the robot emits a frequency of 2500 Hz and the stationary circuit emits a frequency of 5000 Hz. Therefore a sample rate of 10kHz (a max bound of 5kHz) is accepable for the stationary circuit to detect the robot beeps while a sample rate of 20kHz (a max bound of 10kHz) is more suitable for the robot to detect the stationary circuit beeps.
-
 
 ## Rational and Sources
 The goal of our project is to mimic whale echolocation.

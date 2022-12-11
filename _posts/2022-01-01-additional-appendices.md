@@ -1,11 +1,10 @@
 ---
 title: "Additional Appendices"
 layout: post
-read-more: true
+read-more: false
 ---
 
 ## Tasking
-
 
 ### Rochelle
 TODO

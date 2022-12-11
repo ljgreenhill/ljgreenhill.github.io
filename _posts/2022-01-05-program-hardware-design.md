@@ -1,13 +1,10 @@
 ---
 title: "Program and Hardware Design"
 layout: post
-read-more: true
+read-more: false
 ---
 
 ## Program Details
-
-Both the stationary circuit and robot contain loops to make and detect beeps. The robot also has a state machine to determine its next desired position in between time difference calculations.
-
 
 ### Making Beeps
 

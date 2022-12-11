@@ -1,11 +1,10 @@
 ---
 title: "Conclusions"
 layout: post
-read-more: true
+read-more: false
 ---
 
 Overall, our design allowed the mobile robot to move to the general location of the stationary Pico. Mostly due to variable turning and time difference calculated, the mobile robot state machine sometimes exited cases too early, causing the mobile robot to fail to find the stationary Pico. We also did not have time to implement different modes for the stationary Pico that would allow it to indicate to the mobile robot to move in the opposite direction.
-
 
 ## Lessons Learned
 
