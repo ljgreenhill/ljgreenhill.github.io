@@ -7,7 +7,10 @@ read-more: false
 ## Tasking
 
 ### Rochelle
-TODO
+* Wiring mobile robot car for two-motor movement, speakers and mics, connections to microcontroller.
+* Initial programming basic motor movement independent from sound detection and emission
+* Debugging motor code and combining with frequency detection code
+* Debugging state machine with moving motors
 
 ### Lauren
 * Worked on initial state machine design and created diagram
