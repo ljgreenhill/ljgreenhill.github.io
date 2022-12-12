@@ -8,7 +8,7 @@ read-more: false
 
 ### Making Beeps
 
-Frequency of beeps is controlled by the rate the service routine is called at. For the stationary circuit, the interrupt is called every 100μs. Since this is the amount of time the speaker will be on or off, 1 / 2 * 100μs is the frequency of the beep (in this case, 5000 Hz). The interrupt is called every 200μs, or 2500 Hz.
+Frequency of beeps is controlled by the rate at which the service routine is called. For the stationary circuit, the interrupt is called every 100μs. Since this is the amount of time the speaker will be on or off, 1 / 2 * 100μs is the frequency of the beep (in this case, 5000 Hz). The interrupt is called every 200μs, or 2500 Hz.
 
 The main thread indicates that a beep should be made by flipping a boolean value. Once this boolean value is true, the service routine uses the following logic:
 
@@ -18,7 +18,7 @@ In the diagram, if the interrupt service routine is called every 100μs, time is
 
 ### Detecting Beeps
 
-The main loop is constantly sampling audio into a DMA channel. Once enough samples are acquired, the FFT algorithm is run on the samples to calculate max frequency. If the max frequency detected is ±100 of the expected frequency, a beep is acknowledged as received.
+The main loop is constantly sampling audio into a DMA channel. Once enough samples are acquired, the FFT algorithm is run on the samples to calculate max frequency. If the max frequency detected is ±100 Hz of the expected frequency, a beep is acknowledged as received.
 
 ### Moving
 
