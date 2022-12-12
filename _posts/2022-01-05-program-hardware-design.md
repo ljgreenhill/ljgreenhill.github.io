@@ -44,6 +44,12 @@ The mobile robot has two H-bridge circuits, one to control each motor. One H-bri
 
 The stationary Pico was powered by a laptop. The audio socket for the speaker was connected to the Pico, with input connected to GPIO 26 and GND to MCU ground. In both circuits, the microphone was connected in the following manner: GND to MCU ground, VCC to 3V3, and OUT to GPIO 26.
 
+| Component | Description | 
+| --------- | ------------| 
+| RP2040 | This was the microcontroller onto which our program is loaded. | 
+| 4N35 Optoisolator | The 4N35 isolates the RP2040 from the motor, helping protect the microcontroller from voltage spikes that can come off the motor. |
+| Capacitor | The 0.1 μF capacitor provides a path to ground to drain any high-frequency noise generated. | 
+
 
 ## Code Sources
 We used the FFT and DMA channel code from this [audio FFT example](https://github.com/vha3/Hunter-Adams-RP2040-Demos/blob/master/Lab_1/Audio_FFT/fft.c).
