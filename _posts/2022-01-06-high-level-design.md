@@ -23,7 +23,6 @@ Cargo ship collisions are the top cause of [whale death](https://www.washingtonp
 
 This future application of our project would minimize whale casualties by simulating a whale sound onboard a cargo ship, repeatedly emitting 'warning clicks' for real whales to register the sound, calculate the location of the synthesized whale, and understand that the sound is a warning to avoid the location of the cargo ship.
 
-
 ## Logical Structure
 
 The code for both the stationary circuit and robot feature a interrupt service routine for creating beeps, and one main thread which samples audio using a DMA channel and computes the maximum frequency using a FFT algorithm. 
