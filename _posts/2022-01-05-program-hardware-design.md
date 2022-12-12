@@ -38,7 +38,12 @@ In the following diagram, the blue dot is the starting location of the mobile ro
 ![Moving State Machine](https://i.ibb.co/pnMGG9B/final-state-machine-Page-1-drawio.png)
 
 ## Hardware Details
-TODO: Sarika
+In our system, we had two separate circuits: one for the mobile robot and one for the stationary Pico. 
+
+The mobile robot has two H-bridge circuits, one to control each motor. One H-bridge circuit was driven by PWM outputs from pins 10 and 11, and the other was driven by PWM outputs from pin 14 and 15. Two 4N35 optoisolators were used in each H-bridge circuit—each one had its anode connected to a 300 ohm resistor and then to a GPIO pin on the RP2040. The anodes were connected to the ground rail. The 4N35’s collector pins were connected to the power rail. Their emitter pins were connected to 10 kΩ resistors and their bases were connected to 1 MΩ resistors, all of which were then connected to ground rail. The L9110 motor driver’s GND was connected to the ground rail. The 4N35’s emitters were connected to the L9110’s IA and IB pins. The L9110’S ground pins were connected to the ground rail, its VCC pins were connected to the power rail, and its OB and OA pins were connected to the positive and negative terminals of the motor, respectively. The capacitor and four 1.5V AA batteries in series (for a total of 6V) were connected in parallel with the motor, i.e. to the power and ground lines. The ground line was connected to the motor ground. The RP2040 was powered by two 1.5 AA batteries in series (for a total of 3V), connected to the VSYS pin. 
+
+The stationary Pico was powered by a laptop. The audio socket for the speaker was connected to the Pico, with input connected to GPIO 26 and GND to MCU ground. In both circuits, the microphone was connected in the following manner: GND to MCU ground, VCC to 3V3, and OUT to GPIO 26.
+
 
 ## Code Sources
 We used the FFT and DMA channel code from this [audio FFT example](https://github.com/vha3/Hunter-Adams-RP2040-Demos/blob/master/Lab_1/Audio_FFT/fft.c).
