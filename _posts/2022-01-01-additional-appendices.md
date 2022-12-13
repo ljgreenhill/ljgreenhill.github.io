@@ -19,7 +19,10 @@ read-more: false
 * Forked website template and structured pages
 
 ### Sarika
-TODO
+* Wrote code for the mobile robot to allow the Pico to control two motors 
+* Programmed movement functions for moving in different directions
+* Debugged motor code and tested with frequency detection code with Rochelle
+* Programmed and tested state machine code for motor movement with Rochelle
 
 ## Data Sheets
 
@@ -38,6 +41,3 @@ TODO
 ## References
 
 [RP2040 Sample Code](https://github.com/vha3/Hunter-Adams-RP2040-Demos)
-
-
-
