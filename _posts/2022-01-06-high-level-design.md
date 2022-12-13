@@ -15,7 +15,7 @@ These formulas and the full explanation can be found [here](https://vanhunterada
 
 Based on these equations, the fastest frequency that can be detected is half the sample rate.
 
-In our case, the robot emits a frequency of 2500 Hz and the stationary circuit emits a frequency of 5000 Hz. Therefore a sample rate of 10kHz (a max bound of 5kHz) is accepable for the stationary circuit to detect the robot beeps while a sample rate of 20kHz (a max bound of 10kHz) is more suitable for the robot to detect the stationary circuit beeps.
+In our case, the robot emits a frequency of 2500 Hz and the stationary circuit emits a frequency of 5000 Hz. Therefore a sampling rate of 10kHz (a max bound of 5kHz) is accepable for the stationary circuit to detect the robot beeps while a sampling rate of 20kHz (a max bound of 10kHz) is more suitable for the robot to detect the stationary circuit beeps.
 
 ## Rationale and Sources
 The goal of our project is to mimic whale echolocation. Our group was initially interested in music applications of ECE, but we're also big animal lovers and were interested in a further overlap. Through research, we found that Toothed whales, one of 2 species that emits sounds, communicate through high-frequency clicks and perform echolocation to locate other whales but also understand warning sounds to avoid a certain area. Each whale typically has a different pitch and speed between clicks for others to identify each whale. Through further exploration, we found that prior experimentation done with detecting emitted whale clicks around cargo ships prior to movement.
