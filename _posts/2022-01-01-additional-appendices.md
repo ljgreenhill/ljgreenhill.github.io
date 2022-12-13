@@ -19,10 +19,10 @@ read-more: false
 * Forked website template and structured pages
 
 ### Sarika
-* Wrote code for the moble robot to allow the Pico to control each motor 
+* Wrote code for the mobile robot to allow the Pico to control two motors 
 * Programmed movement functions for moving in different directions
-* Debugged motor code and combined with frequency detection code
-* Programmed initial state machine and tested state machine with motor movement and frequency detection
+* Debugged motor code and tested with frequency detection code with Rochelle
+* Programmed and tested state machine code for motor movement with Rochelle
 
 ## Data Sheets
 
