@@ -70,5 +70,3 @@ The stationary Pico was powered by a laptop. The audio socket for the speaker wa
 We used the FFT and DMA channel code from this [audio FFT example](https://github.com/vha3/Hunter-Adams-RP2040-Demos/blob/master/Lab_1/Audio_FFT/fft.c).
 
 The motor PWM channel code was inspired by this [PWM demo](https://github.com/vha3/Hunter-Adams-RP2040-Demos/blob/master/Lab_3/PWM_Demo/pwm-demo.c).
-
-
