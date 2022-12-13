@@ -28,7 +28,7 @@ This future application of our project would minimize whale casualties by simula
 The code for both the stationary circuit and robot feature a interrupt service routine for creating beeps, and one main thread which samples audio using a DMA channel and computes the maximum frequency using a FFT algorithm. 
 
 The sequence begins when the robot sends a beep. The stationary circuit detects this beep and will respond. 
-This exchange happens 3 times. Each time the time between when the robot sent a beep and received the stationary beep is recorded as a time difference. If the robot does not receive a return beep from the stationary circuit within 1 second, it sends another beep. Once 3 time differences have been recorded, a median time difference is calculated. This median time difference is used to determine if the previous median time difference was smaller than the previous calculated median time difference (meaning the two circuits are closer). 
+This exchange happens 3 times. The time between when the robot sent a beep and received the stationary beep is recorded as a time difference. If the robot does not receive a return beep from the stationary circuit within 1 second, it sends another beep. Once 3 time differences have been recorded, a median time difference is calculated. This median time difference is used to determine if the previous median time difference was smaller than the previous calculated median time difference (meaning the two circuits are closer). 
 
 The robot will then move accordingly as described in the Program Details section of Program and Hardware Design.
 
