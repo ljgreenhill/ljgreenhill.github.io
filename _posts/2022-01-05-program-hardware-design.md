@@ -46,7 +46,7 @@ The stationary Pico was powered by a laptop. The audio socket for the speaker wa
 
 #### Mobile Robot Circuit Diagram
 
-![Mobile Robot Circuit Diagram](https://i.ibb.co/Zxn8n31/test.png)
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/r4ctn93" data-context="false" ><a href="//imgur.com/a/r4ctn93"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 #### Stationary Pico Circuit Diagram
 
