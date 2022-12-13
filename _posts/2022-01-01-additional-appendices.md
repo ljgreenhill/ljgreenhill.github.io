@@ -14,7 +14,7 @@ read-more: false
 
 ### Lauren
 * Worked on initial state machine design and created diagram
-* Wrote code to generate and detect beeps
+* Wrote code to generate and detect clicks
 * Debugged code and wiring to move motors backwards
 * Forked website template and structured pages
 

@@ -15,7 +15,7 @@ These formulas and the full explanation can be found [here](https://vanhunterada
 
 Based on these equations, the fastest frequency that can be detected is half the sample rate.
 
-In our case, the robot emits a frequency of 2500 Hz and the stationary circuit emits a frequency of 5000 Hz. Therefore a sampling rate of 10kHz (a max bound of 5kHz) is accepable for the stationary circuit to detect the robot beeps while a sampling rate of 20kHz (a max bound of 10kHz) is more suitable for the robot to detect the stationary circuit beeps.
+In our case, the robot emits a frequency of 2500 Hz and the stationary circuit emits a frequency of 5000 Hz. Therefore a sampling rate of 10kHz (a max bound of 5kHz) is accepable for the stationary circuit to detect the robot clicks while a sampling rate of 20kHz (a max bound of 10kHz) is more suitable for the robot to detect the stationary circuit clicks.
 
 ## Rationale and Sources
 The goal of our project is to mimic whale echolocation. Our group was initially interested in music applications of ECE, but we're also big animal lovers and were interested in a further overlap. Through research, we found that Toothed whales, one of 2 species that emits sounds, communicate through high-frequency clicks and perform echolocation to locate other whales but also understand warning sounds to avoid a certain area. Each whale typically has a different pitch and speed between clicks for others to identify each whale. Through further exploration, we found that prior experimentation has been done with detecting emitted whale clicks around cargo ships prior to movement.
@@ -25,10 +25,10 @@ This future application of our project would minimize whale casualties by simula
 
 ## Logical Structure
 
-The code for both the stationary circuit and robot feature a interrupt service routine for creating beeps, and one main thread which samples audio using a DMA channel and computes the maximum frequency using a FFT algorithm. 
+The code for both the stationary circuit and robot feature a interrupt service routine for creating clicks, and one main thread which samples audio using a DMA channel and computes the maximum frequency using a FFT algorithm. 
 
-The sequence begins when the robot sends a beep. The stationary circuit detects this beep and will respond. 
-This exchange happens 3 times. The time between when the robot sent a beep and received the stationary beep is recorded as a time difference. If the robot does not receive a return beep from the stationary circuit within 1 second, it sends another beep. Once 3 time differences have been recorded, a median time difference is calculated. This median time difference is used to determine if the previous median time difference was smaller than the previous calculated median time difference (meaning the two circuits are closer). 
+The sequence begins when the robot sends a click. The stationary circuit detects this click and will respond. 
+This exchange happens 3 times. The time between when the robot sent a click and received the stationary click is recorded as a time difference. If the robot does not receive a return click from the stationary circuit within 1 second, it sends another click. Once 3 time differences have been recorded, a median time difference is calculated. This median time difference is used to determine if the previous median time difference was smaller than the previous calculated median time difference (meaning the two circuits are closer). 
 
 The robot will then move accordingly as described in the Program Details section of Program and Hardware Design.
 
@@ -36,7 +36,7 @@ The robot will then move accordingly as described in the Program Details section
 
 ### Detecting Distance
 
-One of the major decisions we made in our design was deciding the mechanics of simulating a whale sending out a sound and then detecting a response in order to determine their relative location. In the first iteration of our hardware design, both the stationary circuit and the robot used a speaker powered by the Pico. However, we found that the microphone was unable to detect beeps made by the speaker as it was too quiet. We then decided to power the speaker for both circuits with a 9V battery. We also increased the audio sampling rate from 10kHz to 20kHz to account for detecting a 5000 Hz click (which according to the Nyquist Sampling Theorem, our sampling frequency should be greater than 2 * 5000 = 10,000 Hz). This increased the distance the two circuits could be from each other while detecting the others' beeps. We found that the mobile robot still sometimes struggled to detect the beeps made by the stationary circuit. Since the stationary circuit did not have to move, we decided to use an audio socket with wall speakers to increase the output of the stationary ciruit.
+One of the major decisions we made in our design was deciding the mechanics of simulating a whale sending out a sound and then detecting a response in order to determine their relative location. In the first iteration of our hardware design, both the stationary circuit and the robot used a speaker powered by the Pico. However, we found that the microphone was unable to detect clicks made by the speaker as it was too quiet. We then decided to power the speaker for both circuits with a 9V battery. We also increased the audio sampling rate from 10kHz to 20kHz to account for detecting a 5000 Hz click (which according to the Nyquist Sampling Theorem, our sampling frequency should be greater than 2 * 5000 = 10,000 Hz). This increased the distance the two circuits could be from each other while detecting the others' clicks. We found that the mobile robot still sometimes struggled to detect the clicks made by the stationary circuit. Since the stationary circuit did not have to move, we decided to use an audio socket with wall speakers to increase the output of the stationary ciruit.
 
 We also considered using ultrasonic sensors. However, we decided to use sound since we thought that would make it easier to debug (we can hear the interaction between the circuits and did not need to add an additional indicator like a LED) and our familiarity with detecting audible frequencies from Lab 1 with cricket chirp synchronization.
 
