@@ -46,7 +46,7 @@ The stationary Pico was powered by a laptop. The audio socket for the speaker wa
 
 #### Mobile Robot Circuit Diagram
 
-![Mobile Robot Circuit Diagram](https://i.ibb.co/hmvG6QZ/mobile.png)
+![Mobile Robot Circuit Diagram](https://i.ibb.co/Zxn8n31/test.png)
 
 #### Stationary Pico Circuit Diagram
 
@@ -65,8 +65,6 @@ The stationary Pico was powered by a laptop. The audio socket for the speaker wa
 | Audio Socket | The audio socket is used to connect to the output of the stationary Pico's core in order to hear the audio produced. |
 | Robot Car Chassis | The chassis for the mobile robot consisted of a base with wheels. The breadboard with the circuit and the batteries was taped on top of the base, and the two back wheels were controlled by the motors. |
 | 2N3904 NPN Transistor | A transistor was used in the mobile robot circuit to amplify the output audio signal before passing it to the speaker. |
-
-
 
 ## Code Sources
 We used the FFT and DMA channel code from this [audio FFT example](https://github.com/vha3/Hunter-Adams-RP2040-Demos/blob/master/Lab_1/Audio_FFT/fft.c).
