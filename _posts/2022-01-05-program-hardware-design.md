@@ -44,7 +44,11 @@ The mobile robot has two H-bridge circuits, one to control each motor. One H-bri
 
 The stationary Pico was powered by a laptop. The audio socket for the speaker was connected to the Pico, with input connected to GPIO 16 and GND to MCU ground. In both circuits, the microphone was connected in the following manner: GND to MCU ground, VCC to 3V3, and OUT to GPIO 26.
 
+#### Moving Robot Circuit Diagram
+
 ![Moving Robot Circuit Diagram](https://i.ibb.co/hmvG6QZ/mobile.png)
+
+#### Stationary Pico Circuit Diagram
 
 ![Stationary Pico Circuit Diagram](https://i.ibb.co/VNFDCFZ/stationary.png)
 
