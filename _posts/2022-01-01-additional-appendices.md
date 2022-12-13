@@ -33,7 +33,7 @@ TODO
 
 [RP2040](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
 
-TODO Speaker- could not find (@Sarika maybe you will have more luck?)
+[AST-1732MR-R Speaker](https://www.mouser.com/datasheet/2/334/AST-1732MR-R-72511.pdf)
 
 ## References
 
