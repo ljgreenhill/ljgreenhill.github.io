@@ -41,3 +41,5 @@ read-more: false
 ## References
 
 [RP2040 Sample Code](https://github.com/vha3/Hunter-Adams-RP2040-Demos)
+
+[FFT Algorithm](https://vanhunteradams.com/FFT/FFT.html)
